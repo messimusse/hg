@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3M Investments</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      float: left;
+    }
+
+    header nav {
+      float: right;
+    }
+
+    header nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #283e51, #485563);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: gold;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .section.dark {
+      background: #f4f4f4;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .section h4 {
+      margin-top: 20px;
+    }
+
+    .section ol {
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    .disclaimer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #a00;
+    }
+
+    blockquote {
+      font-style: italic;
+      margin-bottom: 15px;
+      border-left: 4px solid #ccc;
+      padding-left: 15px;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input,
+    form textarea {
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      padding: 12px;
+      background: #1e1e2f;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    footer {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      header nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .hero h2 {
+        font-size: 1.8em;
+      }
+
+      .hero .btn {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>3M Investments</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#how">How It Works</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Grow Your Money with 3M</h2>
+      <p>Deposit funds today, and watch them double in just a few weeks.</p>
+      <a href="#how" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>3M is a trusted platform where your investments work harder for you. We partner with financial experts to ensure high returns and sustainable growth for all our clients.</p>
+    </div>
+  </section>
+
+  <section id="how" class="section dark">
+    <div class="container">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Deposit your desired amount with 3M.</li>
+        <li>Our team allocates your funds to high-return opportunities.</li>
+        <li>After a few weeks, your deposit is returned — doubled.</li>
+      </ol>
+      <p><strong>Example:</strong> Deposit $1000 → Receive $2000 after X weeks.</p>
+      <p class="disclaimer">* Returns are subject to risk. Please read our terms and disclaimers.</p>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <blockquote>"I doubled my savings in just a month. Amazing!" — Sarah M.</blockquote>
+      <blockquote>"Great support and reliable returns!" — John K.</blockquote>
+      <blockquote>"They deliver on their promises. I’m investing again." — Daniel B.</blockquote>
+    </div>
+  </section>
+
+  <section id="faq" class="section dark">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <h4>How long does it take to get returns?</h4>
+      <p>Returns are processed within 2–4 weeks of confirmation.</p>
+
+      <h4>Is my investment guaranteed?</h4>
+      <p>No investment is fully risk-free. We aim for high performance but with transparency.</p>
+
+      <h4>How do I start?</h4>
+      <p>Just fill out the contact form, and one of our advisors will reach out.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or want to start investing? Reach out!</p>
+      <form action="https://formsubmit.co/messimezigebu0@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 3M Investments. All rights reserved.</p>
+      <p><a href="terms.html">Terms & Conditions</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+                .scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms & Conditions</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>Terms & Conditions</h1>
+  <p>Investments carry risk. 3M Investments does not guarantee fixed or risk-free returns. All financial decisions are made at your own discretion. We advise clients to understand the risks before proceeding.</p>
+  <p>By using our platform, you agree to these terms and to seek professional advice when needed.</p>
+</body>
+</html>
+
+</html>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3M Investments - User Dashboard</title>
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS for animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafb;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+    header h1 {
+      font-size: 1.6rem;
+    }
+    main {
+      flex-grow: 1;
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+    }
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #1e1e2f;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+      margin: 0 auto 30px auto;
+    }
+    input[type="text"], input[type="password"], input[type="number"] {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1.5px solid #ccc;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="number"]:focus {
+      outline: none;
+      border-color: #0077ff;
+      box-shadow: 0 0 8px rgba(0, 119, 255, 0.5);
+    }
+    button {
+      padding: 14px;
+      border: none;
+      background: #0077ff;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #005bb5;
+    }
+    .flex-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    .balance-box {
+      background: #0077ff;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      min-width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,119,255,0.4);
+    }
+    .message {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: green;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .message.show {
+      opacity: 1;
+    }
+    .logout-btn {
+      background: #e53935;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+    /* Auth forms container */
+    #authArea {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    #authArea form {
+      box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+      padding: 25px 30px;
+      border-radius: 12px;
+      background: white;
+      width: 320px;
+    }
+    #authArea h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #1e1e2f;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      main {
+        width: 95%;
+        padding: 20px;
+      }
+      #authArea {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>3M Investments</h1>
+  <div id="headerUserArea" style="display:none;">
+    Welcome, <span id="headerUsername"></span>! 
+    <button id="headerLogoutBtn" style="margin-left: 20px; background: #e53935; border:none; color:white; padding:6px 14px; border-radius: 6px; cursor:pointer;">Logout</button>
+  </div>
+</header>
+
+<main>
+  <h2>User Authentication</h2>
+
+  <!-- Auth forms -->
+  <div id="authArea">
+    <form id="registerForm" data-aos="fade-up" data-aos-delay="100">
+      <h3>Register</h3>
+      <input type="text" name="regUsername" placeholder="Username" required autocomplete="off" />
+      <input type="password" name="regPassword" placeholder="Password" required autocomplete="off" />
+      <button type="submit">Register</button>
+    </form>
+
+    <form id="loginForm" data-aos="fade-up" data-aos-delay="300">
+      <h3>Login</h3>
+      <input type="text" name="loginUsername" placeholder="Username" required autocomplete="off" />
+      <input type="password" name="loginPassword" placeholder="Password" required autocomplete="off" />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- User Dashboard (hidden initially) -->
+  <div id="dashboard" style="display:none;" data-aos="fade-in">
+    <div class="balance-box">
+      Balance: $<span id="userBalance">0</span>
+    </div>
+
+    <div class="flex-row">
+      <!-- Deposit Form -->
+      <form id="depositForm" style="max-width: 320px;">
+        <h3>Deposit Funds</h3>
+        <input type="number" name="depositAmount" placeholder="Amount in USD" min="1" required />
+        <button type="submit"><i class="fas fa-arrow-circle-down"></i> Deposit</button>
+      </form>
+
+      <!-- Withdraw Form -->
+      <form id="withdrawForm" style="max-width: 320px;">
+        <h3>Withdraw Funds</h3>
+        <input type="number" name="withdrawAmount" placeholder="Amount in USD" min="1" required />
+        <button type="submit"><i class="fas fa-arrow-circle-up"></i> Withdraw</button>
+      </form>
+    </div>
+
+    <div class="message" id="transactionMessage"></div>
+
+    <button class="logout-btn" id="logoutBtn">Logout</button>
+  </div>
+</main>
+
+<!-- AOS scripts -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  // User management in localStorage
+  const usersKey = 'users';  // stores { username: { password, balance } }
+  const loggedUserKey = 'loggedInUser';
+
+  function getUsers() {
+    return JSON.parse(localStorage.getItem(usersKey)) || {};
+  }
+  function saveUsers(users) {
+    localStorage.setItem(usersKey, JSON.stringify(users));
+  }
+  function getLoggedUser() {
+    return localStorage.getItem(loggedUserKey);
+  }
+  function setLoggedUser(username) {
+    localStorage.setItem(loggedUserKey, username);
+  }
+  function clearLoggedUser() {
+    localStorage.removeItem(loggedUserKey);
+  }
+
+  // Elements
+  const authArea = document.getElementById('authArea');
+  const dashboard = document.getElementById('dashboard');
+  const userBalanceSpan = document.getElementById('userBalance');
+  const transactionMessage = document.getElementById('transactionMessage');
+  const headerUserArea = document.getElementById('headerUserArea');
+  const headerUsername = document.getElementById('headerUsername');
+  const headerLogoutBtn = document.getElementById('headerLogoutBtn');
+
+  // Forms
+  const registerForm = document.getElementById('registerForm');
+  const loginForm = document.getElementById('loginForm');
+  const depositForm = document.getElementById('depositForm');
+  const withdrawForm = document.getElementById('withdrawForm');
+  const logoutBtn = document.getElementById('logoutBtn');
+
+  // Register
+  registerForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const username = registerForm.regUsername.value.trim();
+    const password = registerForm.regPassword.value;
+    if(!username || !password) return;
+
+    let users = getUsers();
+    if(users[username]) {
+      alert('Username already exists. Please choose another.');
+      return;
+    }
+    users[username] = { password: password, balance: 0 };
+    saveUsers(users);
+    alert('Registration successful! Please login.');
+    registerForm.reset();
+  });
+
+  // Login
+  loginForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const username = loginForm.loginUsername.value.trim();
+    const password = loginForm.loginPassword.value;
+    let users = getUsers();
+    if(users[username] && users[username].password === password) {
+      setLoggedUser(username);
+      updateUIForLoggedInUser();
+      loginForm.reset();
+      registerForm.reset();
+      showMessage(`Welcome back, ${username}!`, true);
+    } else {
+      alert('Invalid username or password.');
+    }
+  });
+
+  // Deposit
+  depositForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const amount = Number(depositForm.depositAmount.value);
+    if(amount <= 0 || isNaN(amount)) {
+      showMessage('Please enter a valid amount to deposit.', false);
+      return;
+    }
+    const username = getLoggedUser();
+    if(!username) return;
+    let users = getUsers();
+    users[username].balance += amount;
+    saveUsers(users);
+    updateBalanceUI();
+    depositForm.reset();
+    showMessage(`$${amount.toFixed(2)} deposited successfully!`, true);
+  });
+
+  // Withdraw
+  withdrawForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const amount = Number(withdrawForm.withdrawAmount.value);
+    if(amount <= 0 || isNaN(amount)) {
+      showMessage('Please enter a valid amount to withdraw.', false);
+      return;
+    }
+    const username = getLoggedUser();
+    if(!username) return;
+    let users = getUsers();
+    if(users[username].balance < amount) {
+      showMessage('Insufficient balance for this withdrawal.', false);
+      return;
+    }
+    users[username].balance -= amount;
+    saveUsers(users);
+    updateBalanceUI();
+    withdrawForm.reset();
+    showMessage(`$${amount.toFixed(2)} withdrawn successfully!`, true);
+  });
+
+  // Logout buttons
+  logoutBtn.addEventListener('click', logout);
+  headerLogoutBtn.addEventListener('click', logout);
+
+  function logout() {
+    clearLoggedUser();
+    updateUIForLoggedOutUser();
+    showMessage('You have logged out.', true);
+  }
+
+  function updateBalanceUI() {
+    const username = getLoggedUser();
+    if(!username) return;
+    const users = getUsers();
+    userBalanceSpan.textContent = users[username].balance.toFixed(2);
+  }
+
+  function showMessage(msg, success = true) {
+    transactionMessage.textContent = msg;
+    transactionMessage.style.color = success ? 'green' : 'red';
+    transactionMessage.classList.add('show');
+    setTimeout(() => {
+      transactionMessage.classList.remove('show');
+    }, 3500);
+  }
+
+  function updateUIForLoggedInUser() {
+    const username = getLoggedUser();
+    if(!username) return;
+    authArea.style.display = 'none';
+    dashboard.style.display = 'block';
+    headerUserArea.style.display = 'block';
+    headerUsername.textContent = username;
+    updateBalanceUI();
+  }
+
+  function updateUIForLoggedOutUser() {
+    authArea.style.display = 'flex';
+    dashboard.style.display = 'none';
+    headerUserArea.style.display = 'none';
+    userBalanceSpan.textContent = '0';
+  }
+
+  // On page load check if logged in
+  window.addEventListener('load', () => {
+    if(getLoggedUser()) {
+      updateUIForLoggedInUser();
+    } else {
+      updateUIForLoggedOutUser();
+    }
+  });
+</script>
+
+</body>
+</html>
